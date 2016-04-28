@@ -1,0 +1,108 @@
+body {
+	background-color: #F5F5F5;
+	width: 100%;
+	height:100%;
+}
+.cmttopper{
+	background-color: #ebe2d8;
+    overflow: hidden;
+    padding-bottom: 22px;
+}
+.cmt-title{
+	text-align: center;
+	width: 100%;
+	color: #FD1817;
+	margin: 20px auto;
+	font-size: 18px;
+}
+.cmt-title span{
+	font-size: 28px;
+	margin:0 2px;
+}
+
+.cmttopper .body{
+	
+    position: relative;
+    border: 2px solid #fff;
+    height: 45px;
+    border-radius: 45px;
+}
+.score{
+	color: #888078;
+    padding: 5px;
+    font-size: 14px;
+}
+.cmt-speed .body{
+	background-color: #FDEDA2;
+}
+.cmt-speed .body p {
+    background-color: #F9D029;
+}
+.cmt-quality .body{
+	background-color: #CDD4BE;
+}
+.cmt-quality .body p {
+    background-color: #A1C448;
+}
+.cmt-service .body{
+	background-color: #C7D2D7;
+}
+.cmt-service .body p {
+    background-color: #37CBF5;
+}
+.cmttopper .body i{
+
+	background-size: 217px 54px;
+	z-index: 2;
+	position: absolute;
+    top: -7px;
+	overflow: hidden;
+	width: 46px;
+	height: 53px;
+	background-image: url(../img/icon_face.png);
+	display: inline-block;
+	background-repeat: no-repeat;
+	
+}
+.cmttopper .borders {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.cmttopper .borders span {
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25%;
+    float: left;
+    border-left: 2px solid #fff;
+    opacity: 0.5;
+    height: 100%;
+}
+.cmttopper .borders span:first-child {
+    border-left: 0;
+}
+.cmttopper .body .box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 50px;
+}
+.cmttopper .body i.face_04 {
+	
+    background-position: -170px -1px;
+}
+.cmttopper .body i.face_03 {
+	
+    background-position: -112px -1px;
+}
+.cmttopper .body i.face_02 {
+	
+    background-position: -55px -1px;
+}
+.cmttopper .body i.face_01 {
+	
+    background-position: 1px -1px;
+}

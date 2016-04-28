@@ -1,0 +1,47 @@
+{
+  "note_id": 1,
+  "release_user_head_img": "./assets/images/tx.png",
+  "release_user_name": "徐卓帅",
+  "release_time": "2016-10-11",
+  "release_address": "杭州",
+  "release_text_content": "现摘的建德仙居草莓，只要花20元就能去棚里现摘现吃，吃完还能带走（25元一斤）只要花20元就能去棚里现摘现",
+  "release_img": [
+    "./assets/images/fruit03.jpg",
+    "./assets/images/1.jpeg",
+    "./assets/images/2.jpg"
+  ],
+  "attention_state": true,
+  "praise_state": false,
+  "tag_type": "1",
+  "tag_position": "20,50",
+  "tag_content": [
+    "水果真好吃",
+    "水果水果水果美味"
+  ],
+  "note_detail_url": "id10011231.asd1",
+  "label_list": [
+    "果切",
+    "桃类",
+    "车里子",
+    "蓝莓椰汁",
+    "大块果然",
+    "冰糖木瓜"
+  ],
+  "check_more_comment_url": "getMoreComment",
+  "show_comment_list": [
+    {
+      "username": "齐小吓",
+      "content": "水果真心不错，橘子很新鲜很甜，老板送货速度橘子"
+    },
+    {
+      "username": "我",
+      "content": "多少一斤"
+    },
+    {
+      "username": "我你丫",
+      "content": "加微信聊，老板送货的水果真心不错"
+    }
+  ],
+  "components_total": 5,
+  "praise_total": 10
+}

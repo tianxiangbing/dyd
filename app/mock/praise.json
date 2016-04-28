@@ -1,0 +1,22 @@
+[
+  {
+    "tx":"assets/images/tx.png",
+    "name":"张三"
+  },
+  {
+    "tx":"assets/images/tx.png",
+    "name":"李四"
+  },
+  {
+    "tx":"assets/images/tx.png",
+    "name":"王五"
+  },
+  {
+    "tx":"assets/images/tx.png",
+    "name":"赵六"
+  },
+  {
+    "tx":"assets/images/tx.png",
+    "name":"陈七"
+  }
+]

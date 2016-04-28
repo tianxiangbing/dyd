@@ -1,0 +1,17 @@
+.editor-c{
+    position: relative;
+    top: 1.1625rem;
+    width: 100%;
+}
+.editor-c .editor-c-pic{
+    border-bottom: 3px solid #705D44;
+    position: relative;
+}
+.editor-c .editor-c-des{
+    text-align: center;
+}
+
+.editor-c .editor-c-des p{
+    margin-top: 1.025rem;
+    font-size: .4rem;
+}

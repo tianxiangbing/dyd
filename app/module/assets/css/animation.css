@@ -1,0 +1,36 @@
+/**
+ * 动画效果
+ * am-开头，加语义化名称
+**/
+
+.am-loading {
+    width: 2rem;
+    height: 2rem;
+    margin: 100px auto;
+    background-color: #67CF22;
+    border-radius: 100%;
+    -webkit-animation: scaleout 1.0s infinite ease-in-out;
+    animation: scaleout 1.0s infinite ease-in-out;
+}
+@-webkit-keyframes scaleout {
+    0% { -webkit-transform: scale(0.0) }
+    100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+    }
+}
+@keyframes scaleout {
+    0% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 100% {
+          transform: scale(1.0);
+          -webkit-transform: scale(1.0);
+          opacity: 0;
+      }
+}
+
+.am-left-in{
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+}

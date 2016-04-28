@@ -1,0 +1,45 @@
+{
+  "imgs":["assets/images/note_pic.jpg","assets/images/note_pic.jpg"],
+  "name":"李李仁",
+  "date":"2小时前在杭州",
+  "praise_count":12,
+  "collection":10,
+  "tx":"module/assets/img/pic_min1.jpg",
+  "isheart":false,
+  "star":false,
+  "follow":false,
+  "heart":8,
+  "praise":[
+    {
+      "tx":"assets/images/tx.png"
+    },
+    {
+      "tx":"assets/images/tx.png"
+    },
+    {
+      "tx":"assets/images/tx.png"
+    },
+    {
+      "tx":"assets/images/tx.png"
+    },
+    {
+      "tx":"assets/images/tx.png"
+    }
+  ],
+  "comments_count":7,
+  "comments":[
+    {
+      "name":"李三",
+      "content":"这个不错哟~"
+    }
+  ],
+  "tags":
+  [
+    {
+      "name": "果切"
+    },
+    {
+      "name": "车离子"
+    }
+  ]
+}

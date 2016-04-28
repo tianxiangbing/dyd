@@ -1,0 +1,138 @@
+body{background: #fff;}
+
+.order_form ul{	
+	width: 100%;
+	overflow: hidden;
+}
+/*文字列表*/ 
+.order_form{
+	
+	background-color: #f8f8f8;	
+}
+.order_form  li{
+	padding:.1rem .2rem;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;	
+	border-bottom: 1px solid #fff;	
+}
+.order_form .p{	  
+    overflow: hidden;
+    width: 1.3rem;
+    height: 1.3rem;  
+    position: relative;    
+}
+.order_form .d{	
+	padding: 0rem .1rem .12rem .2rem;
+    -webkit-box-flex: 1;   
+    position: relative;    
+    box-sizing: border-box;
+    height: 1.3rem; 
+}
+.order_form h5{
+	width:70%;
+}
+.order_form h6{
+	position: absolute;
+	bottom:.35rem;
+}
+.order_form .d .d-price{
+	position: absolute;
+	top:.15rem;
+	right:.1rem;
+	text-align: right;
+	width:30%;
+	line-height: .24rem;
+}
+.d del{
+	color:#bebebe;
+	font-size: .24rem;
+	display: block;
+}
+/*满赠*/ 
+.car_pbtn{ 
+	position: absolute;
+	font-size: .18rem;
+	line-height: .18rem;
+	display: inline-block;
+	background: #f9d029; 
+	color: #fff; 
+	padding: .08rem .12rem .05rem; 
+	border-radius: .1rem; 
+	bottom:0rem;
+}
+/*退换*/ 
+.policy{
+	position: absolute;
+	right:0; 
+	bottom: 0;
+	display: inline-block;
+	padding: .04rem .2rem; 
+	border-radius: .1rem; 
+	background: #fff;
+	border:1px solid #e4e1e1;
+}
+
+/*购物车详情*/ 
+.car_form  label{
+	padding:.1rem .2rem;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;	
+	border-bottom: 1px solid #fff;	
+} 
+.form-check{
+	position: absolute;
+	left: -9999rem;
+}
+.form-icon-checked{
+	width: .4rem;
+	height: .4rem;
+	border-radius: .24rem;
+	border: 1px solid #C7C7CC;
+	display: block;
+	position: relative;
+	top:.45rem;
+	margin-right:.2rem;
+}
+.form-check:checked + .form-icon-checked{
+    border: 1px solid #F9D029;
+    background-color:  #F9D029;
+}
+.form-check:checked + .form-icon-checked:before{
+	content: "";
+    position: absolute;
+    width: .24rem;
+    height: .1rem;
+    display: block;
+    top: .11rem;
+    left: .06rem;
+    border-width: 0px 0px 2px 2px;
+    border-color: #fff;
+    border-style: solid;
+    transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+/*失效*/
+.car_lost{
+	font-size: .18rem;
+	line-height: .18rem;
+	position: relative;
+	display: inline-block;
+	background: #bfbfbf; 
+	color: #fff; 
+	padding: .08rem .06rem .05rem; 
+	border-radius: .1rem; 
+	top:.5rem;
+	margin-right: .05rem;
+} 
+.car_lost_del{
+	position: absolute;
+	right:0; 
+	bottom: 0;
+}
+.car_lost_del em{
+	color: #f9a80c;
+}

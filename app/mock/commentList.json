@@ -1,0 +1,24 @@
+[
+  {
+    "name":"李三",
+    "content":"这个不错哟~",
+    "reply":"王五",
+    "date":"2015-05-11",
+    "tx":"assets/images/tx.png",
+    "note":{
+      "img":"module/assets/img/pic_min1.jpg",
+      "content":"笔记内容笔记内容笔记内容笔记内容笔记内容笔记内容笔记内容笔记内容笔记内容"
+    }
+  },
+  {
+    "name":"王五",
+    "content":"这个不错哟~",
+    "reply":"",
+    "date":"2015-05-11",
+    "tx":"assets/images/tx.png",
+    "note":{
+      "img":"module/assets/img/pic_min1.jpg",
+      "content":"笔记内容笔记内容笔记内容笔记内容笔记内容笔记内容笔记内容笔记内容笔记内容"
+    }
+  }
+]

@@ -1,0 +1,137 @@
+body{
+	background: #f5f5f5;
+}
+i.icon{
+	background: url(../img/icon.png) no-repeat;
+	background-size:600px 155px;
+	display: inline-block;
+	font-size: 0.6rem;
+    
+}
+
+/*底部样式*/ 
+.footer_h{
+	height: 52px;
+}
+.footer {
+	background: #fff;
+	width: 100%;
+	height: 50px;
+	position: fixed;       
+	left: 0px;
+	bottom: 0px;
+}
+
+/*底部菜单*/ 
+.footer{	
+	width: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-moz-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.footer a{
+	color: #5D656B;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	text-align: center;
+	box-sizing: border-box;
+	display: block;
+	font-size: 10px;
+	padding-top:8px;
+}
+
+.footer .l2{
+ // 	-webkit-box-flex: 1.2;
+	// -moz-box-flex: 1.2;
+ //    -webkit-flex: 1.2;
+	// -ms-flex: 1.2;
+	// flex: 1.2;
+	margin-right: 3%;
+}
+// .footer a:active{	
+// 	background: #f5f5f5;
+// }
+.footer a:hover{
+	color: #67c6d8;
+	text-decoration: none;	
+}
+ i.ihome{
+	height: 20px;
+	width: 19px;
+	background-position: -13px -24px;
+}
+.footer a:hover i.ihome{	
+	height: 20px;
+	width: 19px;
+	background-position: -13px -47px;
+}
+
+i.isort{
+	height: 20px;
+	width: 19px;
+	background-position: -42px -25px;
+}
+.footer a:hover i.isort{
+	height: 20px;
+	width: 19px;
+	background-position: -42px -47px;
+}
+i.iorder{
+	height: 20px;
+	width: 18px;
+	background-position: -69px -25px;
+}
+.footer a:hover i.iorder{
+	height: 20px;
+	width: 18px;
+	background-position: -69px -47px;
+}
+i.ime{
+	height: 20px;
+	width: 20px;
+	background-position: -98px -25px;
+}
+.footer a:hover i.ime{
+	height: 20px;
+	width: 20px;
+	background-position: -98px -47px;
+}
+i.icart{
+	height: 26px;
+	width: 24px;
+	background-position: -103px -131px;
+}
+.cart_box{
+	width: 52px;
+	height:52px; 
+	border-radius: 50px;
+	background: #f9a80c;
+	// position: absolute;
+	// bottom: 5px;
+	// right: 20px;
+	border: 3px solid #fff;
+	display: inline-block;
+    margin-top: -20px;
+    // margin-right: 10%;
+}
+.cart_box p{
+	background: #f9a80c;
+	border-radius: 30px;
+	display:inline-table;	
+	color: #fff;
+	line-height: 0.9rem;
+	transform: scale(0.9,.9);
+	margin-top: -3px;
+	margin-left:2px;	
+}
+.cart_box p b{
+	font-size: 1.0rem;
+}

@@ -1,0 +1,11 @@
+{
+  "name":"我",
+  "content":"我的评论是这样的...",
+  "reply":"王五",
+  "date":"2015-05-11",
+  "tx":"assets/images/tx.png",
+  "note":{
+    "img":"assets/images/tx.png",
+    "content":"笔记内容笔记内容笔记内容笔记内容笔记内容笔记内容笔记内容笔记内容笔记内容"
+  }
+}

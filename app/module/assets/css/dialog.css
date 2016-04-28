@@ -1,0 +1,60 @@
+
+.ui-dialog, .ui-dialog .mask {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.ui-dialog {
+    font-size: 12px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    font-family: "Microsoft YaHei" !important; }
+.ui-dialog .title {
+    color: #1b1b1b; }
+.ui-dialog .container {
+    width: 282px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 7.5px;
+    position: relative;
+    z-index: 2; }
+.ui-dialog .container.ui-alert {
+    background-color: black !important;
+    opacity: .5; }
+.ui-dialog .container.ui-alert .header {
+    color: #fff !important;
+    padding: 27.5px; }
+.ui-dialog .container .header {
+    text-align: center;
+    padding: 27.5px 0 20px 0;
+    font-size: 14px; }
+.ui-dialog .container .content {
+    text-align: center;
+    line-height: 22px;
+    color: #747474; }
+.ui-dialog .container .footer {
+    border-top: 1px solid #dcdcdc;
+    line-height: 45px;
+    height: 45px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer; }
+.ui-dialog .container .footer a {
+    width: 50%;
+    display: inline-block;
+    color: #747474; }
+.ui-dialog .container .footer .ok {
+    color: #47b5ca;
+    width: 50%;
+    box-sizing: border-box;
+    border-left: 1px solid #dcdcdc; }
+.ui-dialog .container .footer .ok.single {
+    width: 100%;
+    height: 100%;
+    border-left: none !important; }
+.ui-dialog .mask {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 1; }

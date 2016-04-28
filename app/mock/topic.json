@@ -1,0 +1,29 @@
+{
+  "node_num":18,
+  "heart":32,
+  "title":"万水千山总是情",
+  "content":"万水千山总是情,莫怕天空多变换 ",
+  "isheart":false,
+  "goods":[
+    {
+      "img":"assets/images/pic.jpg",
+      "name":"车厘子"
+    },
+    {
+      "img":"assets/images/pic.jpg",
+      "name":"车厘子"
+    },
+    {
+      "img":"assets/images/pic.jpg",
+      "name":"车厘子"
+    },
+    {
+      "img":"assets/images/pic.jpg",
+      "name":"车厘子"
+    },
+    {
+      "img":"assets/images/pic.jpg",
+      "name":"车厘子"
+    }
+  ]
+}

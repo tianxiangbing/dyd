@@ -1,0 +1,3 @@
+@echo "DYD-App"
+@echo "Version：3.6.0"
+@echo "SVN ignore list : node_modules[,.idea]"
